@@ -1,0 +1,27 @@
+cat > .gitignore << 'EOF'
+# OS cruft
+.DS_Store
+
+# Python bytecode / cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual envs
+.venv/
+venv/
+
+# Packages/metadata
+*.egg-info/
+.eggs/
+
+# Local env vars
+.env
+
+# Editors/IDEs (optional)
+.vscode/
+.idea/
+
+# Logs
+*.log
+EOF
