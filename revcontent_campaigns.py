@@ -13,8 +13,9 @@ API_URL   = "https://api.revcontent.io/stats/api/v1.0/boosts"
 # If your account uses a different token endpoint, change TOKEN_URL or set env TOKEN_URL.
 TOKEN_URL = os.environ.get("TOKEN_URL", "https://api.revcontent.io/oauth/token")
 
-# Campaign IDs: env CAMPAIGN_IDS like "2453224,2448613" or fallback list below.
-DEFAULT_CAMPAIGNS = [2453224, 2448613]
+# Campaign IDs: env CAMPAIGN_IDS like "2448613" or fallback list below.
+# Removed 2453224 per your request.
+DEFAULT_CAMPAIGNS = [2448613]
 # ======================
 
 def parse_args():
