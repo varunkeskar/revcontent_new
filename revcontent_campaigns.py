@@ -15,7 +15,7 @@ TOKEN_URL = os.environ.get("TOKEN_URL", "https://api.revcontent.io/oauth/token")
 
 # Campaign IDs: env CAMPAIGN_IDS like "2448613" or fallback list below.
 # Removed 2453224 per your request.
-DEFAULT_CAMPAIGNS = [2448613]
+DEFAULT_CAMPAIGNS = [2448613,2456234]
 # ======================
 
 def parse_args():
